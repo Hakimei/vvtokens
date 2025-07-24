@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "lastModified": "2025-07-24T06:35:06.875Z",
+  "collections": [
+    {
+      "id": "VariableCollectionId:1:2",
+      "name": "primitive/color",
+      "key": "fb8ad48643b513c9e6c14cec9cfb5650a233b7f1",
+      "hiddenFromPublishing": false,
+      "defaultModeId": "1:0",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "1:0"
+        }
+      ],
+      "remote": false,
+      "variableIds": [
+        "VariableID:1:3",
+        "VariableID:1:4"
+      ],
+      "variables": [
+        {
+          "id": "VariableID:1:3",
+          "name": "base/white",
+          "description": "",
+          "key": "f07a70758cd6f9bd9d62f98d370eadee5a209188",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:0": {
+              "r": 0.98,
+              "g": 0.98,
+              "b": 0.98,
+              "a": 1
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:2"
+        },
+        {
+          "id": "VariableID:1:4",
+          "name": "base/black",
+          "description": "",
+          "key": "254d595a763af3daa4d9968db96a67ddbc9b2c33",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:0": {
+              "r": 0.11,
+              "g": 0.11,
+              "b": 0.11,
+              "a": 1
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:2"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:5",
+      "name": "brand",
+      "key": "6985a8876e276802fd60dc0ae0b834e2fd4c83be",
+      "hiddenFromPublishing": false,
+      "defaultModeId": "1:1",
+      "modes": [
+        {
+          "name": "Brand A",
+          "modeId": "1:1"
+        },
+        {
+          "name": "Brand B",
+          "modeId": "1:4"
+        }
+      ],
+      "remote": false,
+      "variableIds": [
+        "VariableID:1:7",
+        "VariableID:1:6",
+        "VariableID:1:9",
+        "VariableID:1:8"
+      ],
+      "variables": [
+        {
+          "id": "VariableID:1:7",
+          "name": "brand/onSolid",
+          "description": "",
+          "key": "5c8f928d03c0771d6df5e9bb445dbfc626a9aaf3",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:1": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "1:4": {
+              "r": 0.11,
+              "g": 0.11,
+              "b": 0.11,
+              "a": 1
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:5"
+        },
+        {
+          "id": "VariableID:1:6",
+          "name": "brand/solid",
+          "description": "",
+          "key": "103c876c27512a83540cfee083de52fccec26985",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:1": {
+              "r": 0.9,
+              "g": 0.28,
+              "b": 0.6,
+              "a": 1
+            },
+            "1:4": {
+              "r": 0.74,
+              "g": 0.95,
+              "b": 0.19,
+              "a": 1
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:5"
+        },
+        {
+          "id": "VariableID:1:9",
+          "name": "brandDark/onSolid",
+          "description": "",
+          "key": "8d193c0bfd434abbd1878bf81f31f0a4e65c8a46",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:1": {
+              "r": 1,
+              "g": 1,
+              "b": 1,
+              "a": 1
+            },
+            "1:4": {
+              "r": 0.11,
+              "g": 0.11,
+              "b": 0.11,
+              "a": 1
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:5"
+        },
+        {
+          "id": "VariableID:1:8",
+          "name": "brandDark/solid",
+          "description": "",
+          "key": "c893d8ea739d81dcda7a1d33deba52a544f25220",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:1": {
+              "r": 0.92,
+              "g": 0.45,
+              "b": 0.88,
+              "a": 1
+            },
+            "1:4": {
+              "r": 0.79,
+              "g": 0.93,
+              "b": 0.55,
+              "a": 1
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:5"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:10",
+      "name": "theme",
+      "key": "4659344b07991dd2353bc63b661ebdd627fccb9a",
+      "hiddenFromPublishing": false,
+      "defaultModeId": "1:2",
+      "modes": [
+        {
+          "name": "Light",
+          "modeId": "1:2"
+        },
+        {
+          "name": "Dark",
+          "modeId": "1:3"
+        }
+      ],
+      "remote": false,
+      "variableIds": [
+        "VariableID:1:11",
+        "VariableID:1:14",
+        "VariableID:1:13",
+        "VariableID:1:12"
+      ],
+      "variables": [
+        {
+          "id": "VariableID:1:11",
+          "name": "color/base/light",
+          "description": "",
+          "key": "b0de3a6e5bdb1f4db123a9e43f77365478e17371",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:2": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:3"
+            },
+            "1:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:4"
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:10"
+        },
+        {
+          "id": "VariableID:1:14",
+          "name": "color/brand/onPrimary",
+          "description": "",
+          "key": "36f0b3487f4bd1108112ae7a5dd313192bd1b22d",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:2": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:7"
+            },
+            "1:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:9"
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:10"
+        },
+        {
+          "id": "VariableID:1:13",
+          "name": "color/brand/primary",
+          "description": "",
+          "key": "18468b70bfbf84bb9cc6441a07f337d9d4ad2d0a",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:2": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:6"
+            },
+            "1:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:8"
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:10"
+        },
+        {
+          "id": "VariableID:1:12",
+          "name": "color/base/dark",
+          "description": "",
+          "key": "1f8e5b29664cacf7507ba805db208e202b7e7384",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:2": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:4"
+            },
+            "1:3": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:3"
+            }
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:10"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:19",
+      "name": "primitive/spacing",
+      "key": "5b47c6c5277076ca679f9d7e1a2736119510cec9",
+      "hiddenFromPublishing": false,
+      "defaultModeId": "1:5",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "1:5"
+        }
+      ],
+      "remote": false,
+      "variableIds": [
+        "VariableID:1:20",
+        "VariableID:1:21",
+        "VariableID:1:22",
+        "VariableID:1:23",
+        "VariableID:1:33",
+        "VariableID:1:34",
+        "VariableID:1:35",
+        "VariableID:1:36"
+      ],
+      "variables": [
+        {
+          "id": "VariableID:1:20",
+          "name": "spacing/base/sm",
+          "description": "",
+          "key": "53e3fd9ee3657c38c6f1b5047636f8ec257243f0",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 4
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:21",
+          "name": "spacing/base/md",
+          "description": "",
+          "key": "bdeea6b9982f1bd43175940fdc5c18ec32ccf1c8",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 8
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:22",
+          "name": "spacing/base/lg",
+          "description": "",
+          "key": "9b920be2f1cc5bf1720df4d48203bac538a2461e",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 16
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:23",
+          "name": "spacing/base/xlg",
+          "description": "",
+          "key": "c0f7b131c6eb9d68c8915f9dba34fca8023668fb",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 20
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:33",
+          "name": "spacing/compact/sm",
+          "description": "",
+          "key": "a972b84aaca7e0996695fb50decd0700cc038ee0",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 2
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:34",
+          "name": "spacing/compact/md",
+          "description": "",
+          "key": "b7f85611284680ec7bdad21624b343e4d7ce5f3a",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 4
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:35",
+          "name": "spacing/compact/lg",
+          "description": "",
+          "key": "eb893608bc491e456d6ccb2862687cf57a8e3621",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 8
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        },
+        {
+          "id": "VariableID:1:36",
+          "name": "spacing/compact/xlg",
+          "description": "",
+          "key": "98eea647a7ec23aae4f91adbfdb3d4204f2211a1",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:5": 16
+          },
+          "scopes": [],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:19"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:26",
+      "name": "semantic",
+      "key": "2fd502c7ee0ce0ddd23d446728375106237b98fc",
+      "hiddenFromPublishing": false,
+      "defaultModeId": "1:6",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "1:6"
+        }
+      ],
+      "remote": false,
+      "variableIds": [
+        "VariableID:6:6",
+        "VariableID:6:7",
+        "VariableID:1:31",
+        "VariableID:1:32",
+        "VariableID:1:27",
+        "VariableID:1:28"
+      ],
+      "variables": [
+        {
+          "id": "VariableID:6:6",
+          "name": "body/spacing/paddingH",
+          "description": "",
+          "key": "14ccf48a26d05ebe51113fa41b1eee501f3bb65f",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:6": 24
+          },
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:26"
+        },
+        {
+          "id": "VariableID:6:7",
+          "name": "body/spacing/paddingV",
+          "description": "",
+          "key": "5d1a21469098126763370f30d660f7bd60fa41c9",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:6": 64
+          },
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:26"
+        },
+        {
+          "id": "VariableID:1:31",
+          "name": "primary/bg",
+          "description": "",
+          "key": "6251fcdb78ce5d5ba37b325877d0463e21ba9ac9",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:11"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:26"
+        },
+        {
+          "id": "VariableID:1:32",
+          "name": "primary/text",
+          "description": "",
+          "key": "64a7829a76344fe8410e97b977e16ae7cd7c949a",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:12"
+            }
+          },
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:26"
+        },
+        {
+          "id": "VariableID:1:27",
+          "name": "button/primary/bg",
+          "description": "",
+          "key": "c2f27b81f0866ce57880ae18c1afcb4acd2984e9",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:13"
+            }
+          },
+          "scopes": [
+            "FRAME_FILL"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:26"
+        },
+        {
+          "id": "VariableID:1:28",
+          "name": "button/primary/text",
+          "description": "",
+          "key": "26603d9b894eeb9493879634fc6f48356046e732",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "1:6": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:14"
+            }
+          },
+          "scopes": [
+            "TEXT_FILL"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:26"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:1:37",
+      "name": "density",
+      "key": "50d2565f77de790e4c2e781c6fa443138fb86c07",
+      "hiddenFromPublishing": false,
+      "defaultModeId": "1:8",
+      "modes": [
+        {
+          "name": "Base",
+          "modeId": "1:8"
+        },
+        {
+          "name": "Compact",
+          "modeId": "1:9"
+        }
+      ],
+      "remote": false,
+      "variableIds": [
+        "VariableID:1:38",
+        "VariableID:1:39"
+      ],
+      "variables": [
+        {
+          "id": "VariableID:1:38",
+          "name": "button/spacing/paddingH",
+          "description": "",
+          "key": "39c67efcc111e9fb6709c5148a642b19f08054e9",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:8": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:21"
+            },
+            "1:9": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:34"
+            }
+          },
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:37"
+        },
+        {
+          "id": "VariableID:1:39",
+          "name": "button/spacing/paddingV",
+          "description": "",
+          "key": "0863d8db31f41f49898f75e0f20509cd466dc054",
+          "resolvedType": "FLOAT",
+          "valuesByMode": {
+            "1:8": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:22"
+            },
+            "1:9": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1:35"
+            }
+          },
+          "scopes": [
+            "ALL_SCOPES"
+          ],
+          "hiddenFromPublishing": false,
+          "codeSyntax": {},
+          "variableCollectionId": "VariableCollectionId:1:37"
+        }
+      ]
+    }
+  ],
+  "fileName": "New architecture Multi-brand-variables-full.json"
+}
